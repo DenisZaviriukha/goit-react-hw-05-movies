@@ -1,4 +1,4 @@
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import { lazy, useEffect, useState } from "react";
 import { getTrendingMovies } from "../api";
 
