@@ -11,9 +11,7 @@ const NotFound = () => {
     return (<div>
         <p>Page not found</p>
         <button onClick={() => setGoBackHome(true)}>Back home</button>
-    </div>
-        
-        
+    </div>   
     )
 }
 

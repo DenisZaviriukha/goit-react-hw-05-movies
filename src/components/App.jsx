@@ -38,7 +38,6 @@ export const App = () => {
 
   return (
     <>
-      {/* так блядь, переделать сдесь всё, а точнее придумать как вынести отсюда нав в компонент лейаут и там сделать адекватный саспенс для аутлета */}
       <Routes> 
         <Route path="/" element={<Layout />} >
           <Route index element={<Home films={trendingMovies} />} />

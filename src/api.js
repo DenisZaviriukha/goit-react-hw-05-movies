@@ -58,6 +58,5 @@ export const getMovieReviews = async (movieId) => {
 export const searchMovies = async (query) => {
   const url = `${BASE_URL}/search/movie`;
   const searchData = await get(url, { query });
-  // console.log(searchData)
   return searchData
 };
